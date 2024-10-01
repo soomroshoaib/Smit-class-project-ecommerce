@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Layout from '../../component/Layout/layout'
-import PostProvider from '../../context/Postcontaxt'
+
+
 
 const Order = () => {
+
   return (
-    <PostProvider>
+   
     <Layout>
-      
+   <h1>
+    hello world 
+   </h1>
     </Layout>
-    </PostProvider>
+   
   )
 }
 
